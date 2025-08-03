@@ -1,0 +1,22 @@
+uuid: 8d605165-5761-48bc-bdc6-18b2cc4ad5d2
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.best_deal
+  module:
+    - text
+id: node.best_deal.field_body
+field_name: field_body
+entity_type: node
+bundle: best_deal
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

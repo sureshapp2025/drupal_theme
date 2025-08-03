@@ -1,0 +1,19 @@
+uuid: 52172dac-94a0-44bc-9820-5250ceabe705
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_flat_space
+    - node.type.best_deal
+id: node.best_deal.field_total_flat_space
+field_name: field_total_flat_space
+entity_type: node
+bundle: best_deal
+label: 'Total Flat Space'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

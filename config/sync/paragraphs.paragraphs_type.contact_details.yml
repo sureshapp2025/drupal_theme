@@ -1,0 +1,10 @@
+uuid: ceca1bb0-2083-474a-a470-5053cff01097
+langcode: en-gb
+status: true
+dependencies: {  }
+id: contact_details
+label: 'Contact details'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

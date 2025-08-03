@@ -1,0 +1,29 @@
+uuid: dee266aa-0072-4bbf-bd77-a83f3c0f6b67
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_image
+    - media.type.image
+    - paragraphs.paragraphs_type.home_page_banner
+id: paragraph.home_page_banner.field_banner_image
+field_name: field_banner_image
+entity_type: paragraph
+bundle: home_page_banner
+label: 'banner image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

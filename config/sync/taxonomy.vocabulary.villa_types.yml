@@ -1,0 +1,9 @@
+uuid: 206d7167-384f-45dd-9126-a3aa8ffd387e
+langcode: en-gb
+status: true
+dependencies: {  }
+name: 'villa types'
+vid: villa_types
+description: null
+weight: 0
+new_revision: false

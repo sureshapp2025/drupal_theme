@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file common module 
+ */
+function common_theme() {
+  return [
+    'block__common' => [
+      'content' => [],
+    ],
+    'block__list_properties' => [
+      'content' => [],
+    ],
+    'context_block' => [
+      'variables' => [
+        'name' => NULL,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,26 @@
+uuid: b6b4f069-d25f-4d27-9178-07300786dbed
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_body
+    - filter.format.full_html
+    - node.type.contact_page
+  module:
+    - text
+id: node.contact_page.field_contact_body
+field_name: field_contact_body
+entity_type: node
+bundle: contact_page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

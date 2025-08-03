@@ -1,0 +1,5 @@
+name: 'youtube_link'
+type: module
+description: 'This is custom widget for youtube links'
+package: Custom
+core_version_requirement: ^10 || ^11

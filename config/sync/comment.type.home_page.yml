@@ -1,0 +1,8 @@
+uuid: a8fbe598-b912-4915-9b59-3d49519cb79b
+langcode: en-gb
+status: true
+dependencies: {  }
+id: home_page
+label: 'home page '
+target_entity_type_id: node
+description: ''

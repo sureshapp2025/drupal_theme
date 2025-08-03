@@ -1,0 +1,23 @@
+uuid: 09baed1d-e21e-4ce9-87cf-dbb7e0817a41
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_no_of_bed_rooms
+    - node.type.best_deal
+id: node.best_deal.field_no_of_bed_rooms
+field_name: field_no_of_bed_rooms
+entity_type: node
+bundle: best_deal
+label: 'no of bed rooms'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

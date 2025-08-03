@@ -1,0 +1,21 @@
+# Main theme library.
+global:
+  js:
+    jquery/jquery-3.7.1.min.js: {}
+    js/bootstrap.min.js: {}
+    js/isotope.min.js: {}
+    js/owl-carousel.js: {}
+    js/counter.js: {}
+    js/custom.js: {}
+    js/villaagency.js: {}
+  css:
+    base:
+      css/base/elements.css: {}
+      css/fontawesome.css: {}
+      css/templatemo-villa-agency.css: {}
+      css/owl.css: {}
+      css/animate.css: {}
+    layout:
+      css/layout/bootstrap.min.css: {}
+    theme:
+      css/theme/print.css: { media: print }

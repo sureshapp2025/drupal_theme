@@ -1,0 +1,5 @@
+name: DrupalBook Youtube
+type: module
+description: Youtube embed field
+core_version_requirement: ^10 || ^11
+package: Custom
