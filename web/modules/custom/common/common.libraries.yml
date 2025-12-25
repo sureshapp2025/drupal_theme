@@ -1,0 +1,17 @@
+common:
+  footer: true
+  js:
+    js/common.js: { attributes: { crossorigin: anonymous}}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/once
+google_map_library:
+  version: 1.x
+  js:
+    https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY: { type: external, minified: true }
+    js/google_map.js: {}
+  dependencies:
+    - core/jquery
+

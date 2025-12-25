@@ -1,0 +1,124 @@
+uuid: a14a873f-f2ca-4eac-bb2a-debb97a7afa9
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.best_deal.field_address
+    - field.field.node.best_deal.field_best_deal_image
+    - field.field.node.best_deal.field_body
+    - field.field.node.best_deal.field_floor_number
+    - field.field.node.best_deal.field_no_of_bed_rooms
+    - field.field.node.best_deal.field_number_of_rooms
+    - field.field.node.best_deal.field_parking_available
+    - field.field.node.best_deal.field_payment_process
+    - field.field.node.best_deal.field_price
+    - field.field.node.best_deal.field_total_flat_space
+    - field.field.node.best_deal.field_villa_types
+    - node.type.best_deal
+  module:
+    - text
+    - user
+id: node.best_deal.default
+targetEntityType: node
+bundle: best_deal
+mode: default
+content:
+  field_address:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_best_deal_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_floor_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_no_of_bed_rooms:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_number_of_rooms:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_parking_available:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_payment_process:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_price:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_total_flat_space:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_villa_types:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

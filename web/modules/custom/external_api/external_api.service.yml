@@ -1,0 +1,6 @@
+services:
+  external_api.external_api_resource:
+    class: Drupal\external_api\Plugin\rest\resource\ExternalApiResource
+    arguments: ['@http_client']
+    tags:
+      - { name: 'rest.resource' }

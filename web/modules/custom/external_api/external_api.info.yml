@@ -1,0 +1,5 @@
+name: 'External API'
+type: module
+description: 'A module to access an external API and provide a REST endpoint.'
+core_version_requirement: ^10 | ^11
+package: Custom

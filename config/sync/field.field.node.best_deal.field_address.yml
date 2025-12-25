@@ -1,0 +1,19 @@
+uuid: bc5794e2-2fa0-451c-8142-9cfb8915bc8b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.best_deal
+id: node.best_deal.field_address
+field_name: field_address
+entity_type: node
+bundle: best_deal
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

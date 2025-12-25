@@ -1,0 +1,76 @@
+<div class="section best-deal">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="section-heading">
+          <h6>| Best Deal</h6>
+          <h2>Find Your Best Deal Right Now!</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="tabs-content">
+          <div class="row">
+            <div class="nav-wrapper ">
+              <ul class="nav nav-tabs" role="tablist">
+                {% if elements is defined and elements.content is defined and elements.content['#content'] is iterable %}
+                  {% for item in elements.content['#content'] %}
+                  {%  set house_type = item.field_villa_types %}
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="{{ house_type }}-tab" data-bs-toggle="tab" data-bs-target="#{{ house_type }}" type="button" role="tab" aria-controls="{{ house_type }}" aria-selected="true">{{ house_type }}</button>
+                  </li>
+                {% endfor %}
+                {% endif %}
+              </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+              {% if elements is defined and elements.content is defined and elements.content['#content'] is iterable %}
+                {% for item in elements.content['#content'] %}
+                  <div class="tab-pane fade show active" id="{{ item.field_villa_types }}" role="tabpanel" aria-labelledby="{{ item.field_villa_types }}-tab">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="info-table">
+                          <ul>
+                            <li>Total Flat Space
+                              <span>{{ item.field_total_flat_space }}</span>
+                            </li>
+                            <li>Floor number
+                              <span>{{ item.field_floor_number }}</span>
+                            </li>
+                            <li>Number of rooms
+                              <span>{{ item.field_number_of_rooms }}</span>
+                            </li>
+                            <li>Parking Available
+                              <span>{{ item.field_parking_available == '1' ? 'Yes' : 'No' }}</span>
+                            </li>
+                            <li>Payment Process
+                              <span>Bank</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      {% if item.field_best_deal_image is not empty %}
+                        <div class="col-lg-6">
+                          <img src="{{ file_url(item.field_best_deal_image) }}" alt="Deal Image">
+                        </div>
+                      {% endif %}
+                      <div class="col-lg-3">
+                        <h4>Extra Info About Property</h4>
+                        {{ item.body }}
+                        <div class="icon-button">
+                          <a href="property-details.html">
+                            <i class="fa fa-calendar"></i>
+                            Schedule a visit</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

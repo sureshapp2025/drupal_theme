@@ -1,0 +1,31 @@
+uuid: 2d47b6ad-faed-4d06-b71c-f907e1fcdea2
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_page_banner_image
+    - node.type.home_page
+    - paragraphs.paragraphs_type.home_page_banner
+  module:
+    - entity_reference_revisions
+id: node.home_page.field_home_page_banner_image
+field_name: field_home_page_banner_image
+entity_type: node
+bundle: home_page
+label: 'Home Page Banner image '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_page_banner: home_page_banner
+    negate: 0
+    target_bundles_drag_drop:
+      home_page_banner:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

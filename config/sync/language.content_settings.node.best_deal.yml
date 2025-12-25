@@ -1,0 +1,11 @@
+uuid: 0be6bdba-5345-4ec4-9c8a-fd47f40ec825
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.best_deal
+id: node.best_deal
+target_entity_type_id: node
+target_bundle: best_deal
+default_langcode: site_default
+language_alterable: false

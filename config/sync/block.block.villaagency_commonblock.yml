@@ -1,0 +1,25 @@
+uuid: 505f6c68-5dfb-49eb-b9b5-04cffcb25531
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - common
+    - system
+  theme:
+    - villaagency
+id: villaagency_commonblock
+theme: villaagency
+region: content
+weight: 1
+provider: null
+plugin: common_block
+settings:
+  id: common_block
+  label: 'Common Block'
+  label_display: '0'
+  provider: common
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/node/2\r\n/villa-properties"

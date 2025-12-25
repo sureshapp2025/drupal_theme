@@ -1,0 +1,92 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+
+<div class="page-heading header-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <span class="breadcrumb">
+          <a href="#">Home</a>
+          / Properties</span>
+        <h3>Properties</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section properties">
+  <div class="container">
+    <ul class="properties-filter">
+      <li>
+        <a class="is_active" href="#!" data-filter="*">Show All</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".adv">Apartment</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".str">Villa House</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".rac">Penthouse</a>
+      </li>
+    </ul>
+    <div class="row properties-box">
+      {% for row in rows %}
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item">
+            <a href="#"><img src="{{ row.content['#row']._entity.field_best_deal_image.entity.field_media_image.entity.fileuri|file_url }}" alt=""></a>
+            <span class="category">{{ row.content["#row"]._entity.field_villa_types[0].entity.name.value  }}</span>
+            <h6>{{ row.content["#row"]._entity.field_price[0].value }}</h6>
+            <h4>
+              <a href="property-details.html">{{ row.content["#row"]._entity.field_address[0].value }}</a>
+            </h4>
+            <ul>
+              <li>Bedrooms:
+                <span>
+                  <span>{{ row.content["#row"]._entity.field_no_of_bed_rooms[0].value }}</span>
+                </span>
+              </li>
+              <li>Bathrooms:
+                <span>
+                  <span>{{ row.content["#row"]._entity.field_number_of_rooms[0].value }}</span>
+                </span>
+              </li>
+              <li>Area:
+                <span>{{ row.content["#row"]._entity.field_total_flat_space[0].value }}</span>
+              </li>
+              <li>Floor:
+                <span>{{ row.content["#row"]._entity.field_floor_number[0].value }}</span</li>
+              </li>
+              <li>Parking:
+                <span>6 spots</span>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="/node/{{ row.content['#row']._entity.id() }}">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {{ pager }}
+  </div>
+</div>
+

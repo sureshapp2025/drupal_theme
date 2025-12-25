@@ -1,0 +1,31 @@
+uuid: 2339d950-fd50-4f28-ab7f-5d42e3f175e9
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.home_page.field_home_page_banner_image
+    - node.type.home_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.home_page.default
+targetEntityType: node
+bundle: home_page
+mode: default
+content:
+  field_home_page_banner_image:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

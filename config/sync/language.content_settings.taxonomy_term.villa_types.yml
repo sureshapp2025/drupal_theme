@@ -1,0 +1,11 @@
+uuid: 75a071f8-0926-4a8c-ae5e-c4ec71fd1b88
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.villa_types
+id: taxonomy_term.villa_types
+target_entity_type_id: taxonomy_term
+target_bundle: villa_types
+default_langcode: site_default
+language_alterable: false

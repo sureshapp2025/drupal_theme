@@ -1,0 +1,24 @@
+name: villaagency
+type: theme
+base theme: stark
+description: A flexible theme with a responsive, mobile-first layout.
+package: yes
+core_version_requirement: ^10 || ^11
+libraries:
+  - villaagency/global
+regions:
+  sub_header: 'Sub Header'
+  header: 'Header'
+  main_banner: 'Main Banner'
+  featured_section : 'Featured section'
+  video_section : 'Video section'
+  video_content: 'video Content'
+  fun_facts: 'Fun Facts'
+  best_deal: 'Best deal'
+  property_section: 'Property section'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  footer: 'Footer'
+dependencies:
+ - drupal:block
+ - drupal:config

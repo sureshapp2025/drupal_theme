@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for youtube_link module.
+ */
+
+
+function youtube_link_theme(){
+  return [
+    'youtube_link_thumbnail' =>[ 
+    'variables' =>['width' => 600, 'height' => 450, 'video_id' => NULL],
+   ] 
+  ];
+}

@@ -1,0 +1,20 @@
+uuid: 1898b1a3-2399-4cfd-80f1-3dff983fed64
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_no_of_bed_rooms
+field_name: field_no_of_bed_rooms
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,72 @@
+Package,Project,Name,Name,Type,Path,Status,Version
+Core,,"Announcements (announcements_feed)",announcements_feed,module,core/modules/announcements_feed,Enabled,11.1.6
+Core,,"Automated Cron (automated_cron)",automated_cron,module,core/modules/automated_cron,Enabled,11.1.6
+Core,,"BigPipe (big_pipe)",big_pipe,module,core/modules/big_pipe,Enabled,11.1.6
+Core,,"Block (block)",block,module,core/modules/block,Enabled,11.1.6
+Core,,"Block Content (block_content)",block_content,module,core/modules/block_content,Enabled,11.1.6
+Core,,"Breakpoint (breakpoint)",breakpoint,module,core/modules/breakpoint,Enabled,11.1.6
+Core,,"CKEditor 5 (ckeditor5)",ckeditor5,module,core/modules/ckeditor5,Enabled,11.1.6
+Core,,"Comment (comment)",comment,module,core/modules/comment,Enabled,11.1.6
+Core,,"Configuration Manager (config)",config,module,core/modules/config,Enabled,11.1.6
+Core,,"Contact (contact)",contact,module,core/modules/contact,Enabled,11.1.6
+Core,,"Contextual Links (contextual)",contextual,module,core/modules/contextual,Enabled,11.1.6
+"Field types",,"Datetime (datetime)",datetime,module,core/modules/datetime,Enabled,11.1.6
+Core,,"Database Logging (dblog)",dblog,module,core/modules/dblog,Enabled,11.1.6
+Core,,"Internal Dynamic Page Cache (dynamic_page_cache)",dynamic_page_cache,module,core/modules/dynamic_page_cache,Enabled,11.1.6
+Core,,"Text Editor (editor)",editor,module,core/modules/editor,Enabled,11.1.6
+Core,,"Field (field)",field,module,core/modules/field,Enabled,11.1.6
+"Core (Experimental)",,"Field Layout (field_layout)",field_layout,module,core/modules/field_layout,Enabled,11.1.6
+Core,,"Field UI (field_ui)",field_ui,module,core/modules/field_ui,Enabled,11.1.6
+"Field types",,"File (file)",file,module,core/modules/file,Enabled,11.1.6
+Core,,"Filter (filter)",filter,module,core/modules/filter,Enabled,11.1.6
+Core,,"Help (help)",help,module,core/modules/help,Enabled,11.1.6
+Core,,"History (history)",history,module,core/modules/history,Enabled,11.1.6
+"Field types",,"Image (image)",image,module,core/modules/image,Enabled,11.1.6
+Core,,"Layout Builder (layout_builder)",layout_builder,module,core/modules/layout_builder,Enabled,11.1.6
+Core,,"Layout Discovery (layout_discovery)",layout_discovery,module,core/modules/layout_discovery,Enabled,11.1.6
+"Field types",,"Link (link)",link,module,core/modules/link,Enabled,11.1.6
+Core,,"Media (media)",media,module,core/modules/media,Enabled,11.1.6
+Core,,"Media Library (media_library)",media_library,module,core/modules/media_library,Enabled,11.1.6
+Core,,"Custom Menu Links (menu_link_content)",menu_link_content,module,core/modules/menu_link_content,Enabled,11.1.6
+Core,,"Menu UI (menu_ui)",menu_ui,module,core/modules/menu_ui,Enabled,11.1.6
+Core,,"MySQL (mysql)",mysql,module,core/modules/mysql,Enabled,11.1.6
+"Core (Experimental)",,"Navigation (navigation)",navigation,module,core/modules/navigation,Enabled,11.1.6
+Core,,"Node (node)",node,module,core/modules/node,Enabled,11.1.6
+"Field types",,"Options (options)",options,module,core/modules/options,Enabled,11.1.6
+Core,,"Internal Page Cache (page_cache)",page_cache,module,core/modules/page_cache,Enabled,11.1.6
+Core,,"Path (path)",path,module,core/modules/path,Enabled,11.1.6
+Core,,"Path alias (path_alias)",path_alias,module,core/modules/path_alias,Enabled,11.1.6
+Core,,"Responsive Image (responsive_image)",responsive_image,module,core/modules/responsive_image,Enabled,11.1.6
+Core,,"Search (search)",search,module,core/modules/search,Enabled,11.1.6
+Core,,"Shortcut (shortcut)",shortcut,module,core/modules/shortcut,Enabled,11.1.6
+Core,,"System (system)",system,module,core/modules/system,Enabled,11.1.6
+Core,,"Taxonomy (taxonomy)",taxonomy,module,core/modules/taxonomy,Enabled,11.1.6
+"Field types",,"Text (text)",text,module,core/modules/text,Enabled,11.1.6
+Core,,"Toolbar (toolbar)",toolbar,module,core/modules/toolbar,Enabled,11.1.6
+Core,,"Update Manager (update)",update,module,core/modules/update,Enabled,11.1.6
+Core,,"User (user)",user,module,core/modules/user,Enabled,11.1.6
+Core,,"Views (views)",views,module,core/modules/views,Enabled,11.1.6
+Core,,"Views UI (views_ui)",views_ui,module,core/modules/views_ui,Enabled,11.1.6
+Administration,admin_toolbar,"Admin Toolbar (admin_toolbar)",admin_toolbar,module,modules/contrib/admin_toolbar,Enabled,3.5.3
+"Chaos tool suite",ctools,"Chaos Tools (ctools)",ctools,module,modules/contrib/ctools,Enabled,4.1.0
+"Chaos tool suite (Experimental)",ctools,"Chaos Tools Blocks (ctools_block)",ctools_block,module,modules/contrib/ctools/modules/ctools_block,Enabled,4.1.0
+"Chaos tool suite (Experimental)",ctools,"Chaos Tools Views (ctools_views)",ctools_views,module,modules/contrib/ctools/modules/ctools_views,Enabled,4.1.0
+"Field types",entity_reference_revisions,"Entity Reference Revisions (entity_reference_revisions)",entity_reference_revisions,module,modules/contrib/entity_reference_revisions,Enabled,8.x-1.12
+"Example modules",examples,"Examples for Developers (examples)",examples,module,modules/contrib/examples,Enabled,4.0.4
+"Example modules",examples,"AJAX Example (ajax_example)",ajax_example,module,modules/contrib/examples/modules/ajax_example,Enabled,4.0.4
+"Example modules",examples,"Batch Example (batch_example)",batch_example,module,modules/contrib/examples/modules/batch_example,Enabled,4.0.4
+"Example modules",examples,"Cache Example (cache_example)",cache_example,module,modules/contrib/examples/modules/cache_example,Enabled,4.0.4
+"Example modules",examples,"Queue Example (queue_example)",queue_example,module,modules/contrib/examples/modules/queue_example,Enabled,4.0.4
+"Example modules",examples,"Render Example (render_example)",render_example,module,modules/contrib/examples/modules/render_example,Enabled,4.0.4
+"Example modules",examples,"Stream Wrapper Example (stream_wrapper_example)",stream_wrapper_example,module,modules/contrib/examples/modules/stream_wrapper_example,Enabled,4.0.4
+"Example modules",examples,"Tabledrag Example (tabledrag_example)",tabledrag_example,module,modules/contrib/examples/modules/tabledrag_example,Enabled,4.0.4
+"Example modules",examples,"Table Sort Example (tablesort_example)",tablesort_example,module,modules/contrib/examples/modules/tablesort_example,Enabled,4.0.4
+"Example modules",examples,"Theming example (theming_example)",theming_example,module,modules/contrib/examples/modules/theming_example,Enabled,4.0.4
+Paragraphs,paragraphs,"Paragraphs (paragraphs)",paragraphs,module,modules/contrib/paragraphs,Enabled,8.x-1.19
+Other,twig_tweak,"Twig Tweak (twig_tweak)",twig_tweak,module,modules/contrib/twig_tweak,Enabled,3.4.0
+Custom,,"DrupalBook Youtube (drupalbook_youtube)",drupalbook_youtube,module,modules/custom/drupalbook_youtube,Enabled,
+Core,,"Claro (claro)",claro,theme,core/themes/claro,Enabled,11.1.6
+Core,,"Olivero (olivero)",olivero,theme,core/themes/olivero,Enabled,11.1.6
+Core,,"Stark (stark)",stark,theme,core/themes/stark,Enabled,11.1.6
+yes,,"Netflix (netflex)",netflex,theme,themes/custom/netflex,Enabled,
+yes,,"villaagency (villaagency)",villaagency,theme,themes/custom/villaagency,Enabled,

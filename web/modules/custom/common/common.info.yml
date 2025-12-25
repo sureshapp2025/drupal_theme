@@ -1,0 +1,5 @@
+name: 'Common'
+type: module
+description: 'Provides common functionalities including a custom block.'
+core_version_requirement: ^11
+package: Custom

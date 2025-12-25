@@ -1,0 +1,25 @@
+<div class="main-banner">
+	<div class="owl-carousel owl-banner">
+{% if paragraph is not empty %}
+{% for item in paragraph.field_banner_image %}
+      <div class="item item-{{ loop.index }}" style="background-image: url('{{ item.entity.field_media_image.entity.fileuri|file_url }}');">
+				<div class="header-text">
+					<span class="category">Toronto,
+						<em>House</em>
+					</span>
+					<h2>Hurry!<br></h2>
+				</div>
+			</div>
+{% endfor %}
+		</div>
+{% endif %}
+
+	</div>
+
+
+
+
+
+
+
+

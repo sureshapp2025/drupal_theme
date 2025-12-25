@@ -1,0 +1,19 @@
+uuid: 70b13982-6326-4288-893f-4c4fce33d6a8
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.contact_details
+id: paragraph.contact_details.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: contact_details
+label: title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

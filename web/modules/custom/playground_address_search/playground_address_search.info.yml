@@ -1,0 +1,8 @@
+name: 'playground_address_search'
+type: module
+description: 'custom widget for address'
+package: Custom
+core_version_requirement: ^10 || ^11
+configure: playground_address_search.settings_link
+dependencies:
+  - drupal:node

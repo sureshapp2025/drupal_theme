@@ -1,0 +1,18 @@
+uuid: bb0b3088-2bbc-48b9-b6bb-ff584879a0e3
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Contact
+type: contact_page
+description: 'Contact page details'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
